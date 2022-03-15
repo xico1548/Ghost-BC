@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+a:hover {
+    color: #777777;
+}
+
+#container {
+    width: 100%;
+    font-family: Arial;
+    color: #1b1b1b;
+}
+
+
+#header {
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    background-image: url('../img/all.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+#header{
+    width: 100%;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,168,255,0.4234068627450981) 100%, rgba(0,212,255,1) 100%);
+}
+*/
+
+#mainnav {
+    width: 100%;
+    background-color: #882222;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mainnav ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: none;
+    border-left: 1px solid #ccc;
+}
+
+#mainnav li {
+    display: inline;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+}
+
+#mainnav li a {
+    text-decoration: none;
+    color: #242424;
+    font-weight: 700;
+}
+
+#mainnav li a:hover {
+    text-decoration: none;
+    color: #7e7e7e;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#sidebar {
+    float: right;
+    width: 20%;
+    background-color: #000000;
+    margin-top: -18px;
+    
+}
+
+#sidebar h3 {
+    padding-left: 18px;
+    color: #882222;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding-left: 18px;
+}
+
+#sidebar ul li {
+    padding-bottom: 5px;
+} 
+
+#sidebar ul li {
+    padding-bottom: 5px;
+    color: #ffffff;
+}    
+
+#sidebar ul li a {
+    padding-bottom: 5px;
+    color: #ffffff;
+}    
+
+#contents {
+    float: left;
+    width: 80%;
+    background-color: #000000;
+    margin-top: -18px;
+    border-right: 1px #882222;
+    box-sizing: border-box;
+}
+
+#footer {
+    clear: both;
+    background-color: #882222;
+    width: 100%;
+    font-size: 12px;
+    height: 30px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+#footer span{
+    margin-right: 30px;
+}
+
+.card-noticia {
+    padding: 25px;
+}
+
+.card-noticia span {
+    font-style: italic;
+    font-size: 10px;
+    color: #414141;
+    margin-left: 3px;
+}
+
+.card-noticia h2 {
+    margin-bottom: -2px;
+    
+}
+
+.card-noticia h2 a {
+    color: #882222;
+}
+.card-noticia p {
+    color: #ffffff;
+}
+.card-noticia img {
+    max-width: 100%;
+}
+
